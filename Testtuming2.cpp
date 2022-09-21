@@ -1,38 +1,30 @@
 #include <iostream>
+#include <string>
+
 using namespace std;
 int main (){
 
-	string L;
-	cout << "Nama : ";
-	getline (cin,L);
-	cout << endl;
+	string nama;
+	string npm;
+	char kelas;
+	string jurusan;
 
+	cout<< "nama \t:";
+	getline (cin,nama);
+	cout<< "npm \t:";
+	cin>> npm;
+	cout<< "kelas \t:";
+	cin>> kelas;
+	getchar ();
+	cout<< "jurusan \t:";
+	getline (cin,jurusan);
 
-	string P;
-	cout << "NPM : ";
-	getline (cin,P);
-	cout << endl;
+	cout<< "Nama \t:" << "nama"<< "\n";
+	cout<< "Npm \t:" << "npm"<< "\n";
+	cout<< "Kelas \t:" << "kelas"<< "\n";
+	cout<< "Jurusan \t:" << "jurusan"<< "\n";
 
-
-	string E;
-	cout << "Kelas : ";
-	getline (cin,E);
-	cout << endl;
-
-
-	string U;
-	cout << "Prodi : ";
-	getline (cin,U);
-	cout << endl;
-
-
-
-	cout << "Nama  :" << E <<endl;
-	cout << "NPM   :" << L <<endl;
-	cout << "Kelas :" << S <<endl;
-	cout << "Prodi :" << A <<endl;
 
 	return 0;
-
 
 }
